@@ -33,7 +33,7 @@
 (setq display-line-numbers-type t)
 
 (setq
- projectile-project-search-path '("~/code/")
+ projectile-project-search-path '("~/code/" "~/code/jolibrain/")
 )
 
 
