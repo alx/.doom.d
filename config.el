@@ -56,6 +56,9 @@
  projectile-project-search-path '("~/code/" "~/code/jolibrain/")
 )
 
+;; Mastodon config
+;; (setq mastodon-instance-url "https://mastodon.tetaneutral.net")
+;; 2FA not supported yet: https://github.com/jdenen/mastodon.el/issues/12
 
 ;; Here are some additional functions/macros that could help you configure Doom:
 ;;

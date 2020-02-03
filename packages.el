@@ -1,7 +1,9 @@
 ;; -*- no-byte-compile: t; -*-
 ;;; $DOOMDIR/packages.el
 
-(package! mastodon)
+;; 2FA not supported yet, disable until solution
+;; fork with 2FA patch available: https://github.com/jdenen/mastodon.el/pull/213
+;; (package! mastodon)
 
 ;; This is where you install packages, by declaring them with the `package!'
 ;; macro, then running 'doom refresh' on the command line. You'll need to
