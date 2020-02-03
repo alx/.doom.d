@@ -27,15 +27,6 @@
 
 ;; If you intend to use org, it is recommended you change this!
 (setq org-directory "~/org/")
-(after! org
-  (setq +org-capture-journal-file
-        (expand-file-name "journal.org"  org-directory)
-  )
-
-  (add-to-list 'org-capture-templates
-               '("k" "Journal" entry (file+olp+datetree +org-capture-journal-file) "* %T %?\n%i\n%a" :prepend t)
-  )
-)
 (setq org-feed-alist
       '(
         ("Mastodon - alx@tetaneutral"
