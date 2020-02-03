@@ -36,6 +36,13 @@
                '("k" "Journal" entry (file+olp+datetree +org-capture-journal-file) "* %T %?\n%i\n%a" :prepend t)
   )
 )
+(setq org-feed-alist
+      '(
+        ("Mastodon - alx@tetaneutral"
+         "https://mastodon.tetaneutral.net/users/alx.rss"
+         "~/rss.org" "Inbox")
+        )
+      )
 
 (global-set-key (kbd "C-c l") 'org-store-link)
 (global-set-key (kbd "C-c a") 'org-agenda)
